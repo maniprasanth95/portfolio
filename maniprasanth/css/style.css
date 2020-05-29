@@ -30,7 +30,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     padding: 5px 10px;
     font-weight: 400;
 }
@@ -164,7 +164,7 @@ h2.slide-h {
 }
 
 .feature-details h2 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -226,8 +226,8 @@ h2.slide-h {
 
 h4.port-head {
     text-align: center;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
     padding: 30px 0;
     color: #848484;
 }
@@ -387,7 +387,7 @@ section#details {
 .nav-item a {
     color: #000;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     padding: 0 25px 0 0;
 }
 
@@ -418,7 +418,7 @@ ul#pills-tab {
 }
 .skills h3 {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 300;
     color: #777;
     margin-top: 10px;
 }
@@ -515,10 +515,12 @@ div#pills-tabContent {
     background: #000;
 }
 .footer-details p {
-    padding: 20px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0;
     color: #777;
     font-size: 14px;
+    text-align: center;
 }
 i.fas.fa-heart {
     color: #ff3249;
@@ -529,7 +531,7 @@ i.fas.fa-heart {
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 40px; /* Place the button at the bottom of the page */
+  bottom: 90px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
@@ -546,9 +548,69 @@ i.fas.fa-heart {
 
 #myBtn:hover {
   background-color: #000;
-  bottom: 50px; /* Add a dark-grey background on hover */
+  bottom: 105px; /* Add a dark-grey background on hover */
 }
 #myBtn i.fa.fa-arrow-up {
     font-size: 14px;
 }
+
+ui.footer-icon {
+    display: flex;
+    justify-content: center;
+}
+.footer-icon a {
+    padding: 0 10px;
+    color: #777;
+    transition: all 0.3s ease-in-out;
+}
+.footer-icon a:hover{
+    color: #ff3249;
+}
+
+.footer-icon li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.footer-brand {
+    text-align: center;
+    padding-top: 60px;
+}
+.footer-link p {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_port {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 18%;
+    animation: 1s fadeInFromTop;
+}
+
+h2.b-com {
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+
+
 
